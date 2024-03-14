@@ -1,7 +1,0 @@
-__pycache__
-data
-preprocess_data
-logs
-wandb
-*.pth
-validation
