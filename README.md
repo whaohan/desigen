@@ -1,6 +1,6 @@
 # Desigen: A Pipeline for Controllable Design Template Generation [CVPR'24]
 
-### [Project Page](https://whaohan.github.io/desigen)  | [Paper]() | [Data](https://drive.google.com/file/d/1M6om4DSk9wNgzjGLY5BtPNUL83KB8JVB/view?usp=sharing)
+### [Project Page](https://whaohan.github.io/desigen)  | [Paper](https://arxiv.org/abs/2403.09093) | [Data](https://drive.google.com/file/d/1M6om4DSk9wNgzjGLY5BtPNUL83KB8JVB/view?usp=sharing)
 
 <p align="center">
   <img width="100%" src="teaser.png">
@@ -98,5 +98,12 @@ Part of our code is borrowed from the following repositories:
 ## Citation
 
 ```tex
-
+@misc{weng2024desigen,
+      title={Desigen: A Pipeline for Controllable Design Template Generation}, 
+      author={Haohan Weng and Danqing Huang and Yu Qiao and Zheng Hu and Chin-Yew Lin and Tong Zhang and C. L. Philip Chen},
+      year={2024},
+      eprint={2403.09093},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
