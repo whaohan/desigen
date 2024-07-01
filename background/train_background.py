@@ -364,6 +364,7 @@ class BackgroundDataset(Dataset):
         self,
         instance_data_root,
         tokenizer,
+        saliency_data_root='data/saliency',
         class_data_root=None,
         class_prompt=None,
         size=512,
@@ -374,7 +375,7 @@ class BackgroundDataset(Dataset):
         self.tokenizer = tokenizer
 
         self.instance_data_root = Path(instance_data_root)
-        self.saliency_root = Path('/data/processed/saliency_e')
+        self.saliency_root = Path(saliency_data_root)
         if not self.instance_data_root.exists():
             raise ValueError(f"Instance {self.instance_data_root} images root doesn't exists.")
 
